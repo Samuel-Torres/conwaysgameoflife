@@ -1,7 +1,7 @@
 import React, { useState, useCallback, useRef } from "react";
 
 import Popup from "reactjs-popup";
-import produce from "immer";
+import { produce } from "immer";
 import "./App.css";
 import gif from "./assets/conway.gif";
 
